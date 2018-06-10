@@ -14,7 +14,7 @@ export default () => resource({
 		}
 
 		for (let i = 0; i < nBars; i++) {
-			bars.push(randomizer(-100, 100));
+			bars.push(randomizer(0, 100));
 		}
 
 		const data = {
